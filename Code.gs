@@ -21,8 +21,6 @@ function onEdit(e) {
     muteHttpExceptions: true,
     contentType: "application/json"
     };
-  
-  range.setNote(params);
 
   var response = UrlFetchApp.fetch(discordUrl, params);
 
